@@ -3,7 +3,7 @@ FIR filter based on a Hamming window
 
 C# Library to calculate the coefficients of a FIR filter with Hamming window and to filter the data
 
-This code calculates the coefficients of the Band-pass, Band-stop, Low-pass and High-pass FIR filters. It also filters the data, but no zero-phase delay is applied. The namespace is FIR_HAMM.
+This code calculates the coefficients of the Band-pass, Band-stop, Low-pass and High-pass FIR filters. It also filters the data, but no zero-phase delay is applied. The namespace is FIR_HAMM. The code follows the same steps as in Matlab.
 
 Each filter function will return a 2 rows x N coefficients 2D vector, where Row 1 = Numerator and Row 2 = Denumerator. 
 
